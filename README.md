@@ -1,6 +1,8 @@
 # rust_tests
 RUST tests
 
+Main tutorial site: https://doc.rust-lang.org/rust-by-example/hello.html
+
 # Initialize and run project
 
 To initialize and run project run:
