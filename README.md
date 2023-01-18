@@ -56,6 +56,8 @@ fn main() {
     println!("func_pointer: {:?} is a function pointer", func_pointer);
     
     // Struct type
+    //derive allows the the {:?} format specifier
+    #[derive(Debug)]
     struct Point {
         x: i32,
         y: i32,
@@ -64,6 +66,8 @@ fn main() {
     println!("p: {:?} is a struct of Point", p);
     
     // Enum type
+    //derive allows the the {:?} format specifier
+    #[derive(Debug)]
     enum Color {
         Red,
         Green,
